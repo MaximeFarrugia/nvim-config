@@ -1,5 +1,7 @@
--- set leader key
-vim.g.mapleader = ','
+vim.g.mapleader = ' '
+
+-- vim explorer
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 
 -- rebind split movements
 vim.keymap.set('n', '<C-h>', '<C-w>h')
@@ -9,9 +11,6 @@ vim.keymap.set('n', '<C-l>', '<C-w>l')
 
 -- <leader>c to clear search
 vim.keymap.set('n', '<leader>c', ':let @/=""<CR>')
-
--- telescope
-vim.keymap.set('n', '<leader>ff', ':Telescope find_files<CR>')
 
 -- LazyGit
 vim.keymap.set('n', '<leader>gg', ':LazyGit<CR>')
