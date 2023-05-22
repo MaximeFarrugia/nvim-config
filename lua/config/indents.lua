@@ -23,3 +23,12 @@ vim.api.nvim_create_autocmd({ 'BufEnter', 'BufWinEnter' }, {
     utils.setIndent(4, false)
   end
 })
+
+-- size 4 tab
+vim.api.nvim_create_autocmd({ 'BufEnter', 'BufWinEnter' }, {
+  pattern = { '*.conf' },
+  callback = function()
+    utils.setIndent(2, true)
+    vim.opt.filetype = 'conf'
+  end
+})

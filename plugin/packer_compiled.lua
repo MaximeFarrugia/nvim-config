@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/Users/maxime/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["formatter.nvim"] = {
+    loaded = true,
+    path = "/Users/maxime/.local/share/nvim/site/pack/packer/start/formatter.nvim",
+    url = "https://github.com/mhartington/formatter.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/maxime/.local/share/nvim/site/pack/packer/start/harpoon",

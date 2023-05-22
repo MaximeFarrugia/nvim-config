@@ -44,3 +44,5 @@ vim.opt.signcolumn = "yes"
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
+
+vim.opt.statusline = '%f %h%w%m%r %=%(%y %= %{&fileencoding?&fileencoding:&encoding} %= %l,%c%V %= %P%)'
