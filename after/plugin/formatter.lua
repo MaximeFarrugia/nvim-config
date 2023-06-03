@@ -8,6 +8,9 @@ require('formatter').setup {
           stdin = true,
         }
       end
+    },
+    typescriptreact = {
+      require("formatter.filetypes.typescriptreact").prettier
     }
   }
 }
